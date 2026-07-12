@@ -5,7 +5,7 @@ import * as db from '../config/db.js';
 
 dotenv.config();
 
-const JWT_SECRET = process.env.JWT_SECRET || 'supersecretkeyfortransitops';
+const JWT_SECRET = process.env.JWT_SECRET || 'R52D3kMYg4XyOwxyWinZOGgWpE7x0neaUGC9MEK7QHy';
 
 export async function login(req, res) {
   const { email, password } = req.body;
