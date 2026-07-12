@@ -1,6 +1,31 @@
-# TransitOps - Smart Transport Operations Platform
+<div align="center">
 
-TransitOps is a production-grade, highly secure Fleet Management and Trip Dispatching platform built to digitize transport operations, vehicle lifecycles, and driver compliance parameters. 
+# 🚛 TransitOps
+
+
+## TransitOps - Smart Transport Operations Platform
+
+
+<br/>
+
+![React.js](https://img.shields.io/badge/React.js-15-black?style=for-the-badge&logo=react.js)
+![Node.js](https://img.shields.io/badge/Node.js-22-339933?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express-5-black?style=for-the-badge&logo=express)
+![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?style=for-the-badge&logo=prisma)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql)
+![JWT](https://img.shields.io/badge/JWT-Authentication-black?style=for-the-badge&logo=jsonwebtokens)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+---
+
+### 🚚 Digitizing Fleet Operations with Intelligent Dispatch, Maintenance & Analytics
+
+</div>
+
+
+
+TransitOps is a web-based transport operations management platform developed for the Odoo Hackathon. It helps organizations manage vehicles, drivers, trips, maintenance, fuel consumption, operational expenses, and fleet analytics from a centralized dashboard.
+
 
 Designed with an **MVC (Model-View-Controller) Backend** and a dynamic React frontend, the system strictly enforces business validation rules (overweight checks, license expirations, vehicle availability, maintenance state lockdowns) alongside robust security systems (failed login account lockouts and role-based access control).
 
