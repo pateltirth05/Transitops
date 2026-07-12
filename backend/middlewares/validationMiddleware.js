@@ -63,7 +63,7 @@ export async function validateTripCreation(req, res, next) {
     // 2. Fetch driver details
     const driverRes = await db.query('SELECT * FROM drivers WHERE id = $1', [driver_id]);
     if (driverRes.rowCount === 0) {
-      return res.status(404).json({ error: 'Driver not found.' });
+      return res.status(404).json({ error: 'Driver not found in db.' });
     }
     const driver = driverRes.rows[0];
 
