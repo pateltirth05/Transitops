@@ -23,6 +23,6 @@ app.use('/api/drivers', driverRoutes);
 app.use('/api/trips', tripRoutes);
 app.use('/api/maintenance', maintenanceRoutes);
 app.use('/api/settings', settingsRoutes);
-app.use('/api', expenseRoutes); // covers fuel-logs, expenses, stats, analytics reports
+app.use('/api', expenseRoutes); //covers fuel-logs, expenses, stats, analytics reports
 
 export default app;
