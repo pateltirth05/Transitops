@@ -34,7 +34,7 @@ Designed with an **MVC (Model-View-Controller) Backend** and a dynamic React fro
 ## 🚀 Key Features
 
 ### 1. Robust MVC Backend Architecture
-* **Config (`config/db.js`)**: Auto-initializes database schemas and seeds default demo data.
+* **Config (`config/db.js`)**: initializes database schemas.
 * **Controllers**: Decoupled handlers isolating business operations (`auth`, `vehicles`, `drivers`, `trips`, `maintenance`, `expenses`, `settings`).
 * **Middlewares**: 
   * JWT authentications and strict Role-Based Access Control (RBAC).
