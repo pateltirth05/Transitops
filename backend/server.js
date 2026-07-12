@@ -6,10 +6,10 @@ dotenv.config();
 
 const PORT = process.env.PORT || 3000;
 
-// Initialize PostgreSQL database schemas and seed parameters
+// Initialize PostgreSQL database schemas 
 await initializeDatabase();
 
-// Listen on configured port
+
 app.listen(PORT, () => {
   console.log(`TransitOps API Server running on http://localhost:${PORT}`);
 });
