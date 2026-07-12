@@ -348,7 +348,7 @@ function App() {
               </div>
               
               <button type="submit" className="btn btn-primary" style={{ width: '100%', padding: '12px', marginTop: '10px' }} disabled={authLoading}>
-                {authLoading ? 'Verifying Credentials...' : 'Sign In'}
+                {authLoading ? 'Verifying Credentials...Wait' : 'Sign In'}
               </button>
             </form>
           </div>
